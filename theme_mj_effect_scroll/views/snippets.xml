@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="snippet_mj_effect_scroll" name="snippet mj effect scroll">
+        <section class="s_image_text bg-gray-lighter mt0">
+            <div class="container">
+                <div class="row first-row">
+                   <!-- Add the extra clearfix for only the required viewport -->
+                <div class="clearfix visible-xs-block"></div>
+                    <div class="col-xs-12 col-md-5 col-md-offset-1  big-box-nopadding">
+                <div  href="#" role="button"  class="btn-img"><img class="img img-responsive"  src="/theme_mj_effect_scroll/static/img/temp-4.jpg"/> </div>
+                    </div>
+                    <div class="col-xs-12 col-md-5  big-box-nopadding">
+                    <div class="first-back">
+                        <h1>
+                          <strong>SULTRY &amp;amp; SMART</strong>
+                       </h1>
+                        <h1>
+                          <SMALL>HOT SPRING LOOKS</SMALL>
+                       </h1>
+                        <span></span>
+
+                        <div><a role="button" href="#">Show Women</a></div>
+                    </div>
+                    </div>                  
+                </div>
+
+                <div class="row second-row">
+                   <!-- Add the extra clearfix for only the required viewport -->
+                <div class="clearfix visible-xs-block"></div>
+                    <div class="col-xs-12 col-md-5 col-md-offset-1 big-box-nopadding">
+                 <div class="second-back">
+                        <h1>
+                          <strong> ELEGANT &amp;amp; SLICK</strong>
+                       </h1>
+                        <h1>
+                          <SMALL>GET READY FOR SUMMER</SMALL>
+                       </h1>
+                        <span></span>
+                        <div>
+                          <a role="button" href="#">Show Men</a>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-xs-12 col-md-5  big-box-nopadding">
+                    <div href="#" role="button" class="btn-img"><img class="img img-responsive" src="/theme_mj_effect_scroll/static/img/temp-5.jpg" /> </div>
+                    </div>                  
+            </div>
+
+            </div>
+        </section>
+    </template>
+    <template id="mj_effect_scroll" inherit_id="website.snippets" name="mj effect scroll">
+        <xpath expr="//div[@id='snippet_effect']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="theme_mj_effect_scroll.snippet_mj_effect_scroll" t-thumbnail="/theme_mj_effect_scroll/static/img/block_portfolio.png" />
+        </xpath>
+    </template>  
+</odoo>

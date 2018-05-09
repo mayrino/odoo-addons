@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template id="theme_mj_zoom_tri" name="theme_mj_zoom_style" inherit_id="website.assets_frontend">
+    <xpath expr="link[last()]" position="after">
+        <link href="/theme_mj_zoom_tri/static/src/css/style.css" rel="stylesheet" type="text/css"/>
+    </xpath>
+</template>
+</odoo>

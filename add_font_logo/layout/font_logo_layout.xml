@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+<template id="add_font_logo" customize_show="True" name="Add_font_logo" inherit_id="portal.frontend_layout">
+    <xpath expr="//header//a[hasclass('navbar-brand')]" position="after" >
+       <a href="/" class="navbar-brand logo">
+            <img class="img img-responsive" src="/add_font_logo/static/src/img/logo-font-1.png"/>
+        </a>
+        </xpath>
+</template>
+</odoo>
